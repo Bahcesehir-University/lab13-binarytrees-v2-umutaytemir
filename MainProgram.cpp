@@ -157,7 +157,7 @@ void bSearchTreeType<T>::inorder(nodeType<T>* p) const {
     
     inorder(p->llink);
     cout << p->info << " ";
-    inorder(p->llink);
+    inorder(p->rlink);
     // Visit left, print root, visit right
 }
 
